@@ -4,7 +4,7 @@ import numpy as np
 np.set_printoptions(threshold=np.inf)
 
 # Import the image
-image = cv2.imread('C:\Users\la vita e bella\Desktop\Scr.png')
+image = cv2.imread('C:\Users\SourceImage.png')
 
 # Resize the image
 IMAGE = cv2.resize(image, (1080, 800))
